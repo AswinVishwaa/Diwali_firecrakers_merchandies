@@ -1,7 +1,5 @@
 # Sree Agencies - Diwali Crackers E-Commerce Website
 
-![Diwali Website](https://i.imgur.com/your-screenshot-url.png) <!-- Optional: Add a screenshot of your live site here -->
-
 A modern, mobile-first, static e-commerce website for **Sree Agencies**, a seasonal fireworks retailer based in Vadamugam Vellode. This project provides a seamless and elegant user experience for customers to browse a complete price list, build an order, and send it directly to the business via WhatsApp.
 
 The entire site is designed with a festive navy blue and gold Diwali theme, running entirely on the client-side with no backend or database required.
