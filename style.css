@@ -236,7 +236,8 @@ body {
     color: #000000;
     font-family: 'Courier New', Courier, monospace;
     padding: 25px;
-    width: 380px;
+    max-width: 380px; /* Prevents it from getting too wide on desktop */
+    width: 100%;      /* Allows it to shrink on mobile */
     border: 1px solid #ccc;
     font-size: 14px;
     margin-left: auto;
@@ -297,6 +298,13 @@ body {
 }
 .bill-instructions p:last-child {
     margin-bottom: 0;
+}
+
+/* --- Center the bill in the modal --- */
+#billModal .modal-body {
+    display: flex;
+    justify-content: center;
+    padding: 1rem; /* Add some padding for spacing */
 }
 
 @media (max-width: 767px) {
