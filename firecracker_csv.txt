@@ -1,0 +1,121 @@
+id,name,category,price,originalPrice,icon
+p1,7cm Electric Sparklers,SPARKLERS,11,22,bi-sparkles
+p2,7cm Colour Sparklers,SPARKLERS,12,24,bi-sparkles
+p3,7cm Green Sparklers,SPARKLERS,14,28,bi-sparkles
+p4,7cm Red Sparklers,SPARKLERS,17,34,bi-sparkles
+p5,10cm Electric Sparklers,SPARKLERS,18,36,bi-sparkles
+p6,10cm Crackling Sparklers,SPARKLERS,20,40,bi-sparkles
+p7,10cm Green Sparklers,SPARKLERS,22,44,bi-sparkles
+p8,10cm Red Sparklers,SPARKLERS,26,52,bi-sparkles
+p9,10cm 4in1(New),SPARKLERS,26,52,bi-sparkles
+p10,12cm Electric Sparklers,SPARKLERS,26,52,bi-sparkles
+p11,12 cm Crackling Sparklers,SPARKLERS,27,54,bi-sparkles
+p12,12cm Green Sparklers,SPARKLERS,32,64,bi-sparkles
+p13,12cm Red Sparklers,SPARKLERS,35,70,bi-sparkles
+p14,15 cm & 30cm Electric Sparklers,SPARKLERS,44,88,bi-sparkles
+p15,15 cm & 30cm Crackling Sparklers,SPARKLERS,47,94,bi-sparkles
+p16,15cm & 30cm Green Sparklers,SPARKLERS,51,102,bi-sparkles
+p17,15cm & 30cm Red Sparklers,SPARKLERS,55,110,bi-sparkles
+p18,50 cm Electric Sparklers,SPARKLERS,165,330,bi-sparkles
+p19,50 cm Crackling Sparklers,SPARKLERS,188,376,bi-sparkles
+p20,Chakkar Big(10Pcs),CHAKKARS,52,104,bi-disc-fill
+p21,Chakkar Special,CHAKKARS,102,204,bi-disc-fill
+p22,Chakkar Deluxe,CHAKKARS,165,330,bi-disc-fill
+p23,Colour Chakkar(Red &Green),CHAKKARS,83,166,bi-disc-fill
+p24,Chakkar Big(25Pcs),CHAKKARS,82,164,bi-disc-fill
+p25,Chakkar Big(10Pcs),CHAKKARS,44,88,bi-disc-fill
+p26,Flower Pots Small,FLOWER POTS,83,111,bi-brightness-high-fill
+p27,Flower Pots Big(Elephant),FLOWER POTS,102,136,bi-brightness-high-fill
+p28,Flower Pots Special,FLOWER POTS,155,207,bi-brightness-high-fill
+p29,Flower Pots Giant,FLOWER POTS,202,269,bi-brightness-high-fill
+p30,Colour Koti,FLOWER POTS,345,460,bi-brightness-high-fill
+p31,Jelly Been Deluxe,FLOWER POTS,712,949,bi-brightness-high-fill
+p32,Colour Koti Deluxe,FLOWER POTS,450,600,bi-brightness-high-fill
+p33,Gypssy(5),FLOWER POTS,154,205,bi-brightness-high-fill
+p34,Flower Pots Big,FLOWER POTS,75,100,bi-brightness-high-fill
+p35,2 3/4″″ Elephant Crackers,ONE SOUND CRACKERS,13,26,bi-volume-up-fill
+p36,3 1/2″″ Elephant Crackers,ONE SOUND CRACKERS,21,42,bi-volume-up-fill
+p37,4"" Elephant Crackers,ONE SOUND CRACKERS,26,52,bi-volume-up-fill
+p38,4"" Deluxe Elephant Crackers,ONE SOUND CRACKERS,32,64,bi-volume-up-fill
+p39,Golden Elephant Crackers,ONE SOUND CRACKERS,82,164,bi-volume-up-fill
+p40,Two Sound Crackers,ONE SOUND CRACKERS,41,82,bi-volume-up-fill
+p41,3 1/2″″ Lakshmi Crackers,ONE SOUND CRACKERS,18,36,bi-volume-up-fill
+p42,4"" Lakshmi Crackers,ONE SOUND CRACKERS,25,50,bi-volume-up-fill
+p43,1 1/2″″ Twinkling Star,TWINKLING STAR,41,55,bi-stars
+p44,4"" Twinkling Star,TWINKLING STAR,112,149,bi-stars
+p45,1 $1/2^{\prime\n ""}$ Twinkling Star,TWINKLING STAR,26,35,bi-stars
+p46,4"" Twinkling Star,TWINKLING STAR,75,100,bi-stars
+p47,Hydro Bomb,ATOM BOMBS,74,148,bi-box-seam
+p48,King Kong,ATOM BOMBS,109,218,bi-box-seam
+p49,Tracer Bomb,ATOM BOMBS,131,262,bi-box-seam
+p50,Baby Rocket,ROCKETS & PENCILS,44,88,bi-rocket-takeoff-fill
+p51,Rocket Bomb,ROCKETS & PENCILS,75,150,bi-rocket-takeoff-fill
+p52,Whisling Rocket,ROCKETS & PENCILS,169,338,bi-rocket-takeoff-fill
+p53,Magic Pencil,ROCKETS & PENCILS,40,80,bi-pencil-fill
+p54,Texas Light,ROCKETS & PENCILS,98,196,bi-rocket-takeoff-fill
+p55,Kit Kat,ROCKETS & PENCILS,22,44,bi-rocket-takeoff-fill
+p56,Bijili Crackers,BIJILI CRACKERS,64,85,bi-volume-up-fill
+p57,Bijili Crackers,BIJILI CRACKERS,52,69,bi-volume-up-fill
+p58,7 Shot(5),MINI FANCY,142,203,bi-box-seam
+p59,Sky Shot(5),MINI FANCY,112,160,bi-stars
+p60,Oreo Fountain,MINI FANCY,135,193,bi-box-seam
+p61,Mini Mix(Gold Silver) (3),MINI FANCY,135,193,bi-box-seam
+p62,Max Mix (Gold Silver) (3),MINI FANCY,169,241,bi-box-seam
+p63,Dup Tip(5),MINI FANCY,135,193,bi-box-seam
+p64,Magic Wand,MINI FANCY,142,203,bi-box-seam
+p65,Battle Shot(5),MINI FANCY,169,241,bi-stars
+p66,Wow Torch(2),MINI FANCY,188,269,bi-box-seam
+p67,Selfi Stick(2),MINI FANCY,195,279,bi-box-seam
+p68,Lotus Wheel(10)(2in1),MINI FANCY,281,401,bi-disc-fill
+p69,Whatts App(3),MINI FANCY,248,354,bi-box-seam
+p70,Popcorn(2),MINI FANCY,266,380,bi-box-seam
+p71,Fly Bees(1),MINI FANCY,195,279,bi-box-seam
+p72,Mumbo Jumbo(2in1),MINI FANCY,264,377,bi-box-seam
+p73,Mad Angel(3in1),MINI FANCY,248,354,bi-box-seam
+p74,Four Squre(4in1),MINI FANCY,308,440,bi-box-seam
+p75,Arjun Tank(3in1),MINI FANCY,412,589,bi-box-seam
+p76,Magic Spring(6Walet),MINI FANCY,585,836,bi-box-seam
+p77,Mega Siran(3),MINI FANCY,206,294,bi-box-seam
+p78,Tin(1),MINI FANCY,98,140,bi-box-seam
+p79,Butterfly(10),MINI FANCY,98,140,bi-box-seam
+p80,MANOJ Mojito(3)(4""Mega),MINI FANCY,281,401,bi-box-seam
+p81,MANOJ Penta(5),MINI FANCY,188,269,bi-box-seam
+p82,MANOJ Pecock(1),MINI FANCY,176,251,bi-box-seam
+p83,MANOJ Mega Crackling Pencil(2),MINI FANCY,240,343,bi-pencil-fill
+p84,MANOJ Tri Colour(3),MINI FANCY,248,354,bi-box-seam
+p85,Heli Copter(5),MINI FANCY,116,166,bi-box-seam
+p86,Ganga Jamuna(5),MINI FANCY,98,140,bi-box-seam
+p87,12 Shot Colour With Blast,MINI AERIAL SHOT,255,340,bi-stars
+p88,Mummy (Gold Tail),MINI AERIAL SHOT,255,340,bi-stars
+p89,Fly Wheel(Flying Chakkar),MINI AERIAL SHOT,300,400,bi-disc-fill
+p90,MANOJ 12 Shot Colour,MINI AERIAL SHOT,180,240,bi-stars
+p91,MANOJ 12 Shot Colour Blast,MINI AERIAL SHOT,240,320,bi-stars
+p92,MANOJ Chotta(1),MINI AERIAL SHOT,60,80,bi-stars
+p93,MANOJ Chotta(5),MINI AERIAL SHOT,262,349,bi-stars
+p94,Chotta(5) Elephant,MINI AERIAL SHOT,390,520,bi-stars
+p95,2"" Single Pipe,MINI AERIAL SHOT,158,211,bi-stars
+p96,1/2″″ Single Pipe (9var) 2,MINI AERIAL SHOT,285,380,bi-stars
+p97,3"" Single(9var),MINI AERIAL SHOT,435,580,bi-stars
+p98,3"" Single Golden Eye (9var),MINI AERIAL SHOT,435,580,bi-stars
+p99,4"" Double Pipe,MINI AERIAL SHOT,1350,1800,bi-stars
+p100,MANOJ 2"" Single(Manoj),MINI AERIAL SHOT,124,165,bi-stars
+p101,MANOJ 3"" Single(Manoj),MINI AERIAL SHOT,319,425,bi-stars
+p102,MANOJ 4"" Single(Manoj),MINI AERIAL SHOT,431,575,bi-stars
+p103,MANOJ 25 Shots,MULTI SHOTS (MANOJ),488,610,bi-stars
+p104,MANOJ 50 Shots,MULTI SHOTS (MANOJ),975,1219,bi-stars
+p105,MANOJ 100 Shots,MULTI SHOTS (MANOJ),1950,2438,bi-stars
+p106,MANOJ 30 Shots,MULTI SHOTS (MANOJ),600,750,bi-stars
+p107,MANOJ 60 Shots,MULTI SHOTS (MANOJ),1200,1500,bi-stars
+p108,MANOJ 120 Shots,MULTI SHOTS (MANOJ),2400,3000,bi-stars
+p109,MANOJ 240 Shots,MULTI SHOTS (MANOJ),4800,6000,bi-stars
+p110,Knight India 30 Shot,MULTI SHOTS (ELEPHANT),825,1100,bi-stars
+p111,Jach Pot 60 Shot,MULTI SHOTS (ELEPHANT),1575,2100,bi-stars
+p112,RDB 120 Shot,MULTI SHOTS (ELEPHANT),3150,4200,bi-stars
+p113,Transformers 120 Shot,MULTI SHOTS (ELEPHANT),3300,4400,bi-stars
+p114,Plahitrom 21/2″″ Single(9) Combo Pack,MULTI SHOTS (ELEPHANT),2550,3400,bi-stars
+p115,12 Shot (6 in1) Combo,MULTI SHOTS (ELEPHANT),712,949,bi-stars
+p116,MANOJ 3 Piece Fancy (Manoj),MULTI SHOTS (ELEPHANT),281,375,bi-stars
+p117,3"" Set Out (Surya),MULTI SHOTS (ELEPHANT),8625,11500,bi-stars
+p118,1000 Wala,GARLANDS,290,290,bi-flower1
+p119,2000 Wala,GARLANDS,580,580,bi-flower1
+p120,5000 Wala,GARLANDS,1450,1450,bi-flower1
