@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Fetch product data from CSV
     function initializeStore() {
-        // Corrected the filename to be all lowercase
         fetch("Product.csv") 
             .then(response => {
                 if (!response.ok) {
@@ -25,20 +24,22 @@ document.addEventListener("DOMContentLoaded", function () {
             });
     }
 
-    // Parse CSV text into product objects
+    // Parse CSV text into product objects (Updated for new column)
     function parseCSVData(csvText) {
         const lines = csvText.trim().split('\n');
         allProducts = [];
         // Start from 1 to skip header row
         for (let i = 1; i < lines.length; i++) {
             const values = lines[i].split(",");
-            if (values.length >= 5) {
+            // Now expects at least 6 columns
+            if (values.length >= 6) {
                 allProducts.push({
                     id: values[0].trim(),
                     name: values[1].trim(),
-                    category: values[2].trim(),
-                    price: parseFloat(values[3].trim()) || 0,
-                    originalPrice: parseFloat(values[4].trim()) || 0,
+                    quantity_text: values[2].trim(), // New quantity field
+                    category: values[3].trim(),
+                    price: parseFloat(values[4].trim()) || 0,
+                    originalPrice: parseFloat(values[5].trim()) || 0,
                 });
             }
         }
@@ -57,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
             </button>
         `).join('');
         
-        // Add event listeners to new pills
         document.querySelectorAll('.category-pill').forEach(pill => {
             pill.addEventListener('click', () => {
                 document.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // Render products based on selected category
+    // Render products based on selected category (Updated card HTML)
     function renderProducts(category) {
         const container = document.getElementById("productsContainer");
         const filtered = category === 'All' ? allProducts : allProducts.filter(p => p.category === category);
@@ -81,7 +81,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="product-card">
                 <div>
                     <h5 class="card-title">${product.name}</h5>
-                    <p class="text-muted mb-3">${product.category}</p>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <p class="text-muted mb-0">${product.category}</p>
+                        <span class="quantity-badge">${product.quantity_text}</span>
+                    </div>
                 </div>
                 <div class="price-wrapper mt-auto">
                     <div class="d-flex justify-content-between align-items-center">
@@ -174,7 +177,7 @@ document.addEventListener("DOMContentLoaded", function () {
         updateCartBadge();
     };
 
-    // --- BILL GENERATION (Updated with instructions) ---
+    // --- BILL GENERATION ---
     window.generateBill = () => {
         if (cart.length === 0) return;
         
@@ -184,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="bill-container" id="billToPrint">
                     <div class="bill-header">
                         <h4>🎆 Sree Agencies 🎆</h4>
-                        <p>Sivakasi</p>
+                        <p>Vadamugam Vellode</p>
                     </div>
                     <table class="bill-table">
                         <thead>
@@ -211,8 +214,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         <p>Thank you for your order!<br>Have a Safe & Happy Diwali!</p>
                     </div>
                 </div>
-
-                <!-- NEW: Instructions Section -->
                 <div class="bill-instructions">
                     <h6 class="instructions-title">How to Confirm Your Order:</h6>
                     <p><strong>Step 1:</strong> Click the 'Download' button to save this bill as an image.</p>

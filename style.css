@@ -55,7 +55,7 @@ body {
 /* --- Category Section --- */
 .category-section {
     margin-bottom: 2rem;
-    margin-top: 1.5rem; /* Pushes it down from the navbar */
+    margin-top: 1.5rem; 
 }
 .scrolling-wrapper {
     display: flex;
@@ -114,8 +114,17 @@ body {
     color: var(--text-dark) !important;
 }
 
+.quantity-badge {
+    background-color: rgba(255, 215, 0, 0.1);
+    color: var(--gold);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
 .price-wrapper {
-    margin-top: auto; /* Pushes to the bottom */
+    margin-top: auto; 
     padding-top: 1rem;
 }
 .price-original {
@@ -224,12 +233,14 @@ body {
 /* --- High-Contrast Bill Styling for Image Generation --- */
 .bill-container {
     background-color: #ffffff;
-    color: #000000; /* Black text for high contrast */
-    font-family: 'Courier New', Courier, monospace; /* Classic receipt font */
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
     padding: 25px;
-    width: 380px; /* A standard thermal receipt width */
+    width: 380px;
     border: 1px solid #ccc;
     font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .bill-header {
     text-align: center;
@@ -267,7 +278,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* --- NEW: Bill Instructions Styling --- */
+/* --- Bill Instructions Styling --- */
 .bill-instructions {
     margin-top: 1.5rem;
     padding: 1rem;
