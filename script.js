@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="bill-container" id="billToPrint">
                     <div class="bill-header">
                         <h4>🎆 Sree Agencies 🎆</h4>
-                        <p>Vadamugam Vellode</p>
+                        <p>Sivakasi</p>
                     </div>
                     <table class="bill-table">
                         <thead>
